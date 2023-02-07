@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MAKEATHON 5.0</title>
+    </head>
+
+    <body>
+
+    <style>
+        p{
+            font-size: 20px;
+        }
+        body {
+        margin: 0;
+        padding: 0;
+        font-family: helvetica;
+        background-color:#18181b;
+        color: white;
+      }  
+      a{
+        color: #162f3c;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      p{
+        text-align: left;
+      }
+      ul {
+        font-size: 20px;
+        line-height: 2rem;
+      }
+      .container {
+        width: 85vw;
+        margin: 0 auto;
+        padding: 1rem;
+      }
+      .banner-box{
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .banner {
+        width: 100%;
+        padding: 0 1rem 0 1rem;
+      }
+      .footer{
+/*        margin-top: 2rem;*/
+        width: 100%;
+        padding-bottom: 2rem;
+      }
+      .fcontent{
+        text-align: center;
+        font-size: x-large;
+        letter-spacing: 1rem;
+      }
+      .socials{
+        width: 100%;
+        display: block;
+        text-align: center;
+        word-spacing: 2rem;
+        margin-top: 2rem;
+      }
+      .icons-size{
+        width: 30px;
+        height: 30px;
+      }
+      .last-line{
+        margin-top: 2rem;
+        text-align: center;
+        font-size: x-small;
+        bottom: 0;
+        color: #E5E1E6;
+      }
+      .bold{
+        font-weight: bold;
+        color: #a3b2f5;
+        font-size: 1.35rem;
+        padding: 0 0.2rem 0 0.2rem;
+      }
+
+      .iks{
+        color: #FF9901;
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+      .mlsc{
+        font-style: italic;
+      }
+
+      .iic {
+        font-size: 1.8rem;
+        font-style: italic;
+        color: #FF9901;
+      }
+
+      @media screen and (max-width: 480px)
+      {
+        p, li{
+            font-size: 0.98rem;
+        }
+
+        .bold {
+            font-size: 1rem;
+        }
+
+        .iic {
+            font-size: 1.4rem;
+        }
+
+        .left {
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .heading{
+            font-size: 16px;
+        }
+
+        .date {
+            font-size: 20px;
+        }
+
+        .register-now img {
+            max-width: 180px;
+            height: auto !important;
+        }
+      }
+      .contents {
+        width:20%;
+        border: 10px solid white;
+        height: 100px;
+      }
+
+      .empty {
+      }
+
+      .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.dtv{
+    align-content: center;
+}
+.date {
+    color: white;
+    font-size: 25px;
+    font-family: helvetica;
+}
+
+.button-register {
+    table-layout: fixed;
+        background-color: transparent;
+        align-content: center;
+        color: white;
+        font-family: calibri;
+        font-size: 40px;
+        font-weight: 500;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        grid-template-columns:auto auto auto auto;
+}
+
+.heading {
+    color: #ff9901;
+    font-size: 25px;
+    font-weight: bold;
+}
+.register-now {
+    display: flex;
+    justify-content: center;
+}
+    </style>
+    <div class="container">
+        <div class="banner-box">
+        <img
+          class="banner"
+          src="Makeathon 5.0-logo.svg"
+          alt="MLSC RECRUITMENTS"
+        />
+      </div>
+        <p class="iic">Ideate. Innovate. Create!</p>
+          <p> Join us at <span class = "bold">Microsoft Learn Student Chapter, TIET </span>as we gear up for <span class = "bold">MAKEATHON 5.0</span>,
+        TIET's most-awaited flagship hackathon.
+    </p>
+        <p style="margin-bottom: 0px;">The MLSC bootcamp marks the beginning of the MAKEATHON 5.0 countdown, from <span class = "heading" style="font-weight: semi-bold; font-size: 20px;">19<sup>th</sup>&nbsp;-&nbsp;24<sup>th</sup> February</span>, with noticeable speakers from various domains. The bootcamp will be followed by the 24-hour hackathon.</p>
+        <p class = "date"><span class = "heading">Date :&nbsp;  </span>25<sup>th</sup> to 26<sup>th</sup> February</p>
+        <p><span class = "bold" style="border-right: 5px;">MAKEATHON 5.0 </span>is your opportunity to code a perfect future!
+</p>
+        <ul>
+            <li>Participants work with their teams on designated tracks, innovate technology, and bring their ideas to life.</li>
+            <li>The hackathon is a learning curve for participants and gives them shelter to grow and foster their love and understanding of tech.</li>
+            <li>All the participants will get a chance to win exciting prizes and compete with teams from across the country. </li>
+        </ul>
+         <p>So what are you waiting for? Mark down your calendars for MAKEATHON 5.0, and prepare for a thrilling experience! <span class = "heading" style="font-weight: semi-bold; font-size: 20px;">Registrations are now open! </span><p>Stay tuned to our social media platforms for further updates!</p> </p>
+        <br>
+        <p style="text-align: left;">Warm Regards,</p>
+        <p style="text-align: left;">Team<a href="https://www.instagram.com/mlsc_tiet/"> <span class="bold"> MLSC.</span></a></p>
+        <div class = "register-now">
+            <p><a href ="https://makeathon5.mlsctiet.com/">
+            <img src="12.png">
+        </a></p>
+        </div>
+        <br>
+          <p style="text-align: center;">For more information, stay tuned to our social media handles: <a href="https://linktr.ee/MLSCTIET" target="_blank"> <span class="bold">Linktree</span></a></p>
+        </p>
+        <div class="footer">
+          <div class="fcontent"><b>...</b></div>
+          <div class="socials" >
+            <a href="https://www.instagram.com/mlsc_tiet/" alt="Instagram" target="_blank"><img class="icons-size" src="https://res.cloudinary.com/dhoayd4fv/image/upload/v1665556551/MLSC/instagram_un5mgm.png" alt="Instagram"/></a>
+            <a href="https://github.com/MicrosoftStudentChapter" alt="Github" target="_blank"><img class="icons-size" src="https://res.cloudinary.com/dhoayd4fv/image/upload/v1665556551/MLSC/github_dnq7pt.png" alt="Github"/></a>
+            <a href="https://discord.gg/4JegjVP9" alt="Discord" target="_blank"><img class="icons-size" src="https://res.cloudinary.com/dhoayd4fv/image/upload/v1665556551/MLSC/discord_fdhaqd.png" alt="Discord"/></a>
+            <a href="https://m.facebook.com/100063694884394/" alt="Facebook" target="_blank"><img class="icons-size" src="https://res.cloudinary.com/dhoayd4fv/image/upload/v1665556551/MLSC/facebook_dl9dak.png" alt="Facebook" /></a>
+            <a href="https://twitter.com/mlsc_tiet" alt="Twitter" target="_blank"><img class="icons-size" src="https://res.cloudinary.com/dhoayd4fv/image/upload/v1665556551/MLSC/twitter_eacq5j.png" alt="Twitter"/></a>
+          </div>
+          <div class="last-line">With   &#10084; Microsoft Learn Student Chapter , TIET , Patiala</div>
+      </div>
+    </body>
+  </html>
